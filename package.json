@@ -11,6 +11,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "heroku": "^7.60.2",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "uniqid": "^5.4.0"
   }
 }

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const uniqid = require('uniqid');
 const express = require('express');
 const app = express();
 const PORT = process.argv.PORT || 3001;
@@ -36,7 +37,7 @@ app.get('/notes',(req,res)=>{
 });
 
 app.get('/api/notes',(req,res)=>{
-    
+
     res.json(notes);
 });
 
@@ -46,7 +47,7 @@ app.get('*',(req,res)=>{
 
 //post method
 app.post('/api/notes',(req,res)=>{
-    req.body.id = notes.length.toString();
+    req.body.id = uniqid();
     if(!validateNoteEntry(req.body)){
         res.status(400).send('Please enter the notes correctly.');
     }
