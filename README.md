@@ -17,7 +17,7 @@ An application that can be used to write and save notes.
   This app allows users to get, post and delete notes. 
   
 ## Deployed on HEROKU
-  https://expressnotesbyneet.herokuapp.com/notes
+  https://expressnotesbyneet.herokuapp.com/
   
 ## Screenshots:
 <img src="./public/assets/images/1.png">
