@@ -25,7 +25,7 @@ An application that can be used to write and save notes.
 <img src="./public/assets/images/2.png">
 
 ## Video Walkthrough:
-
+https://user-images.githubusercontent.com/74340217/180013314-9ad25457-0e2d-4e9b-9aee-c6e72e38ac2d.mp4
 
 ## Installation:
   App uses NODE.JS, EXPRESS.JS, and UNIQID or do 'npm i' through the command line to install the necessary packages. 
